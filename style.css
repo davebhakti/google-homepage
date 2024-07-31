@@ -2,6 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.google-header {
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -16,4 +21,14 @@ header {
     display: flex;
     align-items: center;
     gap: 14px;
+}
+
+.img-button{
+    border: none;
+    background: transparent;
+
+}
+
+.img-button img{
+    width: 50px;
 }
